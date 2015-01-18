@@ -1,10 +1,14 @@
 # Site navigation links
 
-- title: Linkedin
-  url: https://www.linkedin.com/in/jitendravyas
-
-- title: Dribble
-  url: https://dribbble.com/jitendravyas
-
 - title: Post archives
   url: /posts/
+
+- title: Contact
+  url: /contact/
+
+- title: Linkedin &#x29c9;
+  url: https://www.linkedin.com/in/jitendravyas
+
+- title: Dribble &#x29c9;
+  url: https://dribbble.com/jitendravyas
+
