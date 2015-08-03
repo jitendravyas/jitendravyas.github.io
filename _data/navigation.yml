@@ -1,7 +1,5 @@
 # Site navigation links
 
-- title: Post archives
-  url: /posts/
 
 - title: Contact
   url: /contact/
@@ -11,4 +9,10 @@
 
 - title: Dribble &#x29c9;
   url: //dribbble.com/jitendravyas
+
+- title: Behance &#x29c9;
+  url: //www.behance.net/jitendravyas
+
+- title: Post archives
+  url: /posts/
 

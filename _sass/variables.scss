@@ -1,9 +1,9 @@
 // TYPOGRAPHY ================================================
-$doc-font-size: 16;
-$doc-line-height: 26;
+$doc-font-size: 14;
+$doc-line-height: 30;
 $paragraph-indent: true !default;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
+$base-font: 'Georgia', serif;
+$heading-font: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
@@ -13,8 +13,8 @@ $body-color     : $bodycolor;
 $textcolor      : #333332;
 $text-color     : $textcolor;
 $border-color   : $text-color;
-$basecolor 		  : #343434;	  
-$compcolor 		  : spin($basecolor, 180); 
+$basecolor 		  : #343434;
+$compcolor 		  : spin($basecolor, 180);
 $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
@@ -40,3 +40,4 @@ $small            : "only screen and (min-width: 37.5em)";
 $medium           : "only screen and (min-width: 48em)";
 $large            : "only screen and (min-width: 62em)";
 $x-large          : "only screen and (min-width: 86.375em)";
+
