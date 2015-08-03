@@ -23,7 +23,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+<script>
+var cb = function() {
+var l = document.createElement('link'); l.rel = 'stylesheet';
+l.href = '{{ site.url }}/assets/css/main.css';
+var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(cb);
+else window.addEventListener('load', cb);
+</script>
+<!-- <link rel="stylesheet" href=""> -->
 
 <meta http-equiv="cleartype" content="on">
 
