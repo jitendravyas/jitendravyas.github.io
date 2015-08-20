@@ -28,5 +28,10 @@ sitemap: false
 @import "vendor/google/fonts";
 p+p {
     text-indent: 0;
-    margin-top: 0
+    margin-top: 0;
+        line-height: 1.5;
+}
+
+h1,h2 {
+    font-family: 'Roboto', sans-serif;
 }
